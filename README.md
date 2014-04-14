@@ -25,7 +25,7 @@ after all of this, we need to export to system environment
         echo "/usr/lib/rfmin/lib" >> /etc/ld.so.conf
         echo "/usr/lib/icc" >> /etc/ld.so.conf
         echo "/usr/local/lib" >> /etc/ld.so.conf
-
+        ldconfig
 
 Run `omnitty -T -W` 
 
